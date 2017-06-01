@@ -1,0 +1,58 @@
+@keyframes animate_cloud{
+  0%{transform: translateX(-2000px);}
+  /*50%{transform: translateX(1000px);}*/
+  100%{transform: translateX(2000px);}
+}
+@keyframes animate_shark {
+  /*0%{transform: translateX(1000px) translateY(200px)rotate(18deg);}
+  10%{transform: translateX(900px) translateY(125px)rotate(36deg);}
+  20%{transform: translateX(800px) translateY(50px)rotate(48deg);}
+  30%{transform: translateX(700px) translateY(-25px)rotate(60deg);}
+  40%{transform: translateX(750px) translateY(-100px) rotate(72deg);}
+  50%{transform: translateX(600px) translateY(-200px) rotate(90deg);}
+  60%{transform: translateX(500px) translateY(-100px) rotate()
+  70%{transform: translateX(400px) translateY(-25px);}
+  80%{transform: translateX(200px) translateY(50px);}
+  90%{transform: translateX(0px) translateY(125px);}
+  100%{transform: translateX(-200px) translateY(200px) rotate(180deg);}*/
+  }
+  @keyframes animate_shark_up {
+    0%{transform: translateX(1000px) translateY(200px);}
+    100%{transform: translateX(-200px) translateY(200px);}
+  }
+
+.cloud1{
+  animation-name: animate_cloud;
+  animation-duration: 36s;
+  animation-fill-mode: forwards;
+  width: 125px;
+  margin-left: 800px;
+}
+  .cloud2{
+  animation-name: animate_cloud;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  width: 175px;
+  margin-left: 500px;
+}
+.cloud3{
+animation-name: animate_cloud;
+animation-duration: 26s;
+animation-fill-mode: forwards;
+width: 75px;
+margin-left: 900px;
+}
+.shark{
+  animation-name: animate_shark_up;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  margin-top: 400px;
+  width: 150px;
+}
+body{
+  width:100%;
+  background-color: blue;
+  background-image: url('http://clipground.com/images/city-wallpaper-clipart-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 1900px 800px;
+}
